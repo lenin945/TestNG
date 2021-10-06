@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47152" started-at="2021-09-29T05:52:21Z" finished-at="2021-09-29T05:53:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47152" started-at="2021-09-29T05:52:21Z" finished-at="2021-09-29T05:53:08Z">
+      <class name="org.rerun.Re_Run">
+        <test-method status="PASS" signature="flipkart_login()[pri:0, instance:org.rerun.Re_Run@47c62251]" name="flipkart_login" duration-ms="46955" started-at="2021-09-29T05:52:21Z" finished-at="2021-09-29T05:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart_login -->
+      </class> <!-- org.rerun.Re_Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

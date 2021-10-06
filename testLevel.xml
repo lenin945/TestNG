@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test1">
+  <parameter name="usr" value="dfghj"></parameter>
+  <parameter name="pass" value="12345678"></parameter>
+    <classes>
+      <class name="org.parallel_exec.Test_level"/>
+    </classes>
+  </test> 
+    <test name="Test2">
+  <parameter name="usr" value="ganapathyraja945@gmail.com"></parameter>
+  <parameter name="pass" value="dfghj"></parameter>
+    <classes>
+      <class name="org.parallel_exec.Test_level"/>
+    </classes>
+  </test> 
+  <test name="Test3">
+  <parameter name="usr" value="ganapath@gmail.com"></parameter>
+  <parameter name="pass" value="Pgr.pgr@1"></parameter>
+    <classes>
+      <class name="org.parallel_exec.Test_level"/>
+    </classes>
+  </test> 
+  <test name="Test4">
+  <parameter name="usr" value="ganapathyraja945@gmail.com"></parameter>
+  <parameter name="pass" value="Pgr.pgr@1"></parameter>
+    <classes>
+      <class name="org.parallel_exec.Test_level"/>
+    </classes>
+  </test> 
+</suite> 
