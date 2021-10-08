@@ -283,7 +283,7 @@ public class BaseClass {
 	
 	
 	//TakeScreenShot
-	public static void takeSnap(WebElement ref,String imageName) throws IOException {
+	public static void takeSnap(String imageName) throws IOException {
 		TakesScreenshot tk= (TakesScreenshot) driver;
 		File src = tk.getScreenshotAs(OutputType.FILE);
 		File des=new File("C:\\Users\\Satz\\eclipse-workspace\\TESTNG\\Screenshots\\"+imageName+".png");

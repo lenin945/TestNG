@@ -26,7 +26,7 @@ public class Method_Level  extends BaseClass {
 				System.out.println("Login Unsuccessful");
 				printText(f.getErrormsg());
 			}
-			takeSnap(f.getErrormsg(), "fbtc1"); 
+			takeSnap("fbtc1"); 
 			closeBrowser();
 		}
 		//Invalid Username and Valid Password
@@ -51,7 +51,7 @@ public class Method_Level  extends BaseClass {
 			} else {
 				System.out.println("Login Unsuccessful");
 				printText(f.getErrormsg());
-			}takeSnap(f.getErrormsg(), "fbtc2");
+			}takeSnap("fbtc2");
 			deleteCookies(); closeBrowser();
 		}
 		
@@ -77,7 +77,7 @@ public class Method_Level  extends BaseClass {
 			} else {
 				System.out.println("Login Unsuccessful");
 				printText(f.getErrormsg());
-			}takeSnap(f.getErrormsg(), "fbtc3");
+			}takeSnap("fbtc3");
 			deleteCookies(); closeBrowser();
 		}
 		
@@ -101,7 +101,7 @@ public class Method_Level  extends BaseClass {
 				System.out.println("Login Unsuccessful");
 				printText(f.getErrormsg());
 			}
-			takeSnap(f.getErrormsg(), "fbtc4");
+			takeSnap("fbtc4");
 			deleteCookies(); 
 			closeBrowser();
 		}
