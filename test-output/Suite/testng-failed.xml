@@ -4,21 +4,31 @@
   <test thread-count="5" name="Chrome Test(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="org.testNg.Ques7">
+      <class name="org.testNg.Ques6">
         <methods>
-          <include name="flipkart_login" invocation-numbers="0"/>
+          <include name="tc" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.testNg.Ques7 -->
+      </class> <!-- org.testNg.Ques6 -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
   <test thread-count="5" name="Edge Test(failed)" parallel="tests">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="org.testNg.Ques7">
+      <class name="org.testNg.Ques6">
         <methods>
-          <include name="flipkart_login" invocation-numbers="0"/>
+          <include name="tc" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.testNg.Ques7 -->
+      </class> <!-- org.testNg.Ques6 -->
     </classes>
   </test> <!-- Edge Test(failed) -->
+  <test thread-count="5" name="FF Test(failed)" parallel="tests">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="org.testNg.Ques6">
+        <methods>
+          <include name="tc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testNg.Ques6 -->
+    </classes>
+  </test> <!-- FF Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

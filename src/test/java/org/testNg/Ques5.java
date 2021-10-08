@@ -75,7 +75,7 @@ public class Ques5 extends BaseClass{
 	@Test
 	private void tc5() throws IOException {
 		Demo_QA_POJO d=new Demo_QA_POJO();
-		takeSnap(d.getGivenDetails(), "ques5");
+		takeSnap("ques5");
 	}
 }
 

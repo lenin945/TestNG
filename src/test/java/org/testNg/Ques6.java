@@ -21,7 +21,13 @@ public class Ques6 extends BaseClass{
 		winMax();
 		loadUrl("http://www.greenstechnologys.com/");
 		System.out.println(browserName+"--->"+pageTitle());
-		takeSnap(locateWebelement(By.id("head-wrapper")), "GT_paralle_exec");
+		if(browserName.equals("ff")) {
+			takeSnap("GT_paralle_exec1");
+		}else if (browserName.equals("chrome")) {
+			takeSnap("GT_paralle_exec");
+		}else {
+			takeSnap("GT_paralle_exec2");
+		}
 		closeBrowser();
 	}
 }

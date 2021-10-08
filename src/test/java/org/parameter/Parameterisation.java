@@ -92,7 +92,7 @@ public class Parameterisation extends BaseClass {
 		BookHotelPage b=new BookHotelPage();
 		Thread.sleep(2000);
 		scrollDown(b.getOrder_no());
-		takeSnap(b.getOrder_no(), "adactin_orderNo");
+		takeSnap("adactin_orderNo");
 		System.out.print("Order No: ");
 		printAttribute(b.getOrder_no(), "value");
 		

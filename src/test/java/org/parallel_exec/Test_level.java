@@ -29,7 +29,7 @@ public class Test_level extends BaseClass {
 			System.out.println("Login Unsuccessful");
 			printText(f.getErrormsg());
 		}
-		takeSnap(f.getErrormsg(), "fbtc1"); 
+		takeSnap("fbtc1"); 
 		closeBrowser();
 	}
 }

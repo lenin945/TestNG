@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.rerun.Re_Run">
+      <class name="org.testNg.Ques6">
         <methods>
-          <include name="flipkart_login"/>
+          <include name="tc"/>
         </methods>
-      </class> <!-- org.rerun.Re_Run -->
+      </class> <!-- org.testNg.Ques6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
